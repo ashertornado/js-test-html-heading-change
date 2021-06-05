@@ -6,6 +6,7 @@ document.getElementById("textChanger").onclick = function(){
     document.getElementById("heading").innerHTML = "Heading was changed by JavaScript!";
 }
 
+// Refresh Button
 document.getElementById("refreshBtn").onclick = function(){
     location.reload();
 }
