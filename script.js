@@ -5,3 +5,7 @@ console.log("JavaScript application is running");
 document.getElementById("textChanger").onclick = function(){
     document.getElementById("heading").innerHTML = "Heading was changed by JavaScript!";
 }
+
+document.getElementById("refreshBtn").onclick = function(){
+    location.reload();
+}
